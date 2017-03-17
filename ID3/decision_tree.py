@@ -1,16 +1,15 @@
 '''
-Created on Sep 26, 2016
-
 @author: deepaks
 '''
+
 import csv
 import math
 cv=[]
 fvlist=[]
 fvlength=0
-train="/Users/deepaks/Documents/workspace/AML/Assignment2/mush_train.data"
-attribute_file="/Users/deepaks/Documents/workspace/AML/Assignment2/attribute_mapping.txt"
-test="/Users/deepaks/Documents/workspace/AML/Assignment2/mush_test.data"
+train="/mush_train.data"
+attribute_file="/attribute_mapping.txt"
+test="/mush_test.data"
 
 def read(train):
     with open(train) as inp:
