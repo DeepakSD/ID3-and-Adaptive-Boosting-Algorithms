@@ -187,8 +187,8 @@ def accuracy_parse(data,tree):
                 return 1
 
 def main(args):
-    train_data="/Users/deepaks/Documents/workspace/AML/Assignment3/heart_train.data"
-    test_data="/Users/deepaks/Documents/workspace/AML/Assignment3/heart_test.data"
+    train_data="/heart_train.data"
+    test_data="/heart_test.data"
     read_train(train_data)
     hypothesis_space()
     adaboost()
